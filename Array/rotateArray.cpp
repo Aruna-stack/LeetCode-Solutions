@@ -35,7 +35,7 @@ public:
             cout<<arr[i]<<" ";
         }
         }
-        void reverse(vector<int>& num, int start, int end){//time complexcity for this code is O(n),
+        void reverse(vector<int>& num, int start, int end){//time complexcity for this code is O(n^2),
             int n = num.size();
             while(start<end){
                 swap(num[start], num[end]);
