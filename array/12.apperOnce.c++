@@ -16,7 +16,7 @@ class Solution{
 };
 
 int main(){
-    vector<int> num = {2,1,2,1,3,3,4};
+    vector<int> num = {1,2,1,2,1};
     Solution s1;
     cout<<s1.apperOnceNum(num)<<endl;
     return 0;
